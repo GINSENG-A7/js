@@ -1,0 +1,25 @@
+/* ваши стили */
+
+.temp_textarea{
+	height: calc(100% - 5px);
+	width: calc(100% - 5px);
+	resize: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.button {
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	bottom: -22px;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+.button:nth-of-type(2) {
+	left: auto;
+	left: 35px;
+}
